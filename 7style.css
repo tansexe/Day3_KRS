@@ -3,33 +3,33 @@
   margin: 0;
 }
 
+/* Justify: Row Axis 
+     Align: Column Axis */
+
 .grid-container {
   display: grid;
-  grid-template-areas:
-    "footer footer footer"
-    "header header header"
-    "sidebar main main";
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
+  gap: 20px;
+  /* justify-items: stretch; */
+  /* justify-items: center; */
+  /* justify-items: end; */
+  /* align-items: start; */
+  /* align-items: center; */
+  /* align-items: end; */
+  height: 500px;
 }
 
-.header {
-  grid-area: header;
-  background-color: blue;
+.box1 {
+  background-color: red;
+  /* justify-self: center; */
+  /* align-self: center; */
 }
 
-.sidebar {
-  grid-area: sidebar;
+.box2 {
   background-color: green;
 }
 
-.main {
-  grid-area: main;
-  background-color: coral;
-}
-
-.footer {
-  grid-area: footer;
+.box3 {
   background-color: yellow;
 }
