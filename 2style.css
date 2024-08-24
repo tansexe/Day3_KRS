@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.grid-container {
+  width: 1000px;
+  height: 1000px;
+  display: grid;
+  /* border: solid 5px black; */
+  margin-top: 20px;
+  /* grid-template-columns: 500px 500px 500px; */
+  grid-template-columns: repeat(3, 500px);
+  /* grid-template-columns: 1fr 1fr 1fr;  */
+  /* grid-template-columns: repeat(3, 1fr) 2fr; */
+  /* gap: 20px; */
+}
+
+.boxGreen,
+.boxYellow,
+.boxRed {
+  height: 300px;
+  width: 300px;
+
+  /* aspect-ratio: 1 / 1;  */
+  /* Ensures the boxes remain square */
+}
+
+.boxGreen {
+  background-color: green;
+}
+
+.boxGreen1 {
+  background-color: green;
+}
+
+.boxYellow {
+  background-color: yellow;
+}
+
+.boxRed {
+  background-color: red;
+}

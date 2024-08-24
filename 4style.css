@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+  gap: 10px; /* Spacing between grid items */
+}
+
+.boxGreen,
+.boxYellow,
+.boxRed,
+.boxBlack {
+  height: 150px;
+  width: 100%;
+}
+
+.boxGreen {
+  background-color: green;
+  /* grid-column: 1 / 4;  */
+}
+
+.boxYellow {
+  background-color: yellow;
+  /* grid-column: 4 / 5;  */
+}
+
+.boxRed {
+  background-color: red;
+  /* grid-column: 1 / 4;  */
+}
+
+.boxBlack {
+  background-color: black;
+  /* grid-column: 2 / 4;  */
+}

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Justify: Row Axis 
+     Align: Column Axis */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  /* justify-items: stretch; */
+  /* justify-items: center; */
+  /* justify-items: end; */
+  /* align-items: start; */
+  /* align-items: center; */
+  /* align-items: end; */
+  height: 500px;
+}
+
+.box1 {
+  background-color: red;
+  /* justify-self: center; */
+  /* align-self: center; */
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: yellow;
+}
